@@ -1,5 +1,5 @@
-from bigint import BASE, BigInt3, bigint_mul, nondet_bigint3, UnreducedBigInt5
-from param_def import P0, P1, P2, N0, N1, N2, GX0, GX1, GX2, GY0, GY1, GY2, A0, A1, A2
+from common_ec_cairo.ec.bigint import BASE, BigInt3, bigint_mul, nondet_bigint3, UnreducedBigInt5
+from common_ec_cairo.ec.param_def import P0, P1, P2, N0, N1, N2, GX0, GX1, GX2, GY0, GY1, GY2, A0, A1, A2
 from field import verify_urbigInt5_zero
 from ec import EcPoint, ec_add, ec_mul, verify_point
 

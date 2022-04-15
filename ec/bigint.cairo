@@ -1,4 +1,4 @@
-from param_def import P0, P1, P2, BASE
+from common_ec_cairo.ec.param_def import P0, P1, P2, BASE
 
 # Represents an integer defined by
 #   d0 + BASE * d1 + BASE**2 * d2.

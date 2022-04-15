@@ -1,6 +1,6 @@
-from bigint import BigInt3, UnreducedBigInt3, UnreducedBigInt5, nondet_bigint3, bigint_mul
-from field import verify_urbigInt3_zero, verify_urbigInt5_zero, is_urbigInt3_zero
-from param_def import BASE, P0, P1, P2, N0, N1, N2, A0, A1, A2, GX0, GX1, GX2, GY0, GY1, GY2
+from common_ec_cairo.ec.bigint import BigInt3, UnreducedBigInt3, UnreducedBigInt5, nondet_bigint3, bigint_mul
+from common_ec_cairo.ec.field import verify_urbigInt3_zero, verify_urbigInt5_zero, is_urbigInt3_zero
+from common_ec_cairo.ec.param_def import BASE, P0, P1, P2, N0, N1, N2, A0, A1, A2, GX0, GX1, GX2, GY0, GY1, GY2
 
 # Represents a point on the elliptic curve.
 # The zero point is represented using pt.x=0, as there is no point on the curve with this x value.

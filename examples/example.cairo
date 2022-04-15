@@ -1,6 +1,6 @@
 %builtins range_check
 
-from bigint import BigInt3
+from common_ec_cairo.ec.bigint import BigInt3
 from ec import EcPoint
 from ecdsa import verify_ecdsa
 
